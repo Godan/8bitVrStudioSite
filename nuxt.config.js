@@ -60,6 +60,6 @@ export default {
     }
   },
   router: {
-    base: '/8bitVrStudioSiteDist/'
+    base: '/8bitVrStudioSite/'
   }
 }
