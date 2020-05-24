@@ -2,14 +2,19 @@
   <div class="container">
     <div>
       <h1 class="title">
-        8bitVR<br>
-        Studio
+        About
       </h1>
       <h2 class="subtitle">
-        Retro game studio & Streamers Production
+        8bit<レトロ>をVR<現代>に
       </h2>
-      <div class="navibar">
-        <navibar />
+      <p>TOOD: ここにいい感じの画像</p>
+      <div>
+        <p>
+          色々あって作った仲間内のサークル<br>
+          一人がボドゲを作り。一人は動画撮ったりなんやかんやしたり。一人は配信をしたり。<br>
+          地球に未開拓地はすでに無く。宇宙を開拓するには早すぎる時代。 <br>
+          僕たちはこのVRの世界に新しい開拓地を創ろう。
+        </p>
       </div>
     </div>
   </div>
@@ -22,9 +27,7 @@ import Navibar from '~/components/Navibar.vue'
 export default Vue.extend({
   components: {
     Navibar
-  },
-  layout: 'top'
-
+  }
 })
 </script>
 
@@ -33,10 +36,11 @@ export default Vue.extend({
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: black;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* text-align: center; */
+  background-color: white;
+  margin-top: 50px;
 }
 
 .title {
@@ -45,14 +49,14 @@ export default Vue.extend({
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #EEEEEE;
+  color: #000;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 22px;
-  color: #aaaaaa;
+  color: #888;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

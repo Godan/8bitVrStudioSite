@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+
+// Materialize の red, lighten-1, darken-2 などの色指定を使えるようにするためインポート
+@import '@/node_modules/materialize-css/sass/components/_color-variables.scss';
+
+
+$primary-color: color('blue-grey', 'darken-4');        // .blue
+$secondary-color: color('green', 'lighten-1');   // .green.lighten-1
+$link-color: color('red', 'darken-2');           // .red.darken-2
+
+
+@import '@/node_modules/materialize-css/sass/materialize.scss';

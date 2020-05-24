@@ -23,6 +23,7 @@ export default {
   ** Global CSS
   */
   css: [
+
   ],
   /*
   ** Plugins to load before mounting the App
@@ -59,6 +60,6 @@ export default {
     }
   },
   router: {
-    base: '/8bitVrStudioSite/'
+    base: '/8bitVrStudioSiteDist/'
   }
 }
