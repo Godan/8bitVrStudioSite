@@ -6,7 +6,11 @@
           About
         </nuxt-link>
       </li>
-      <li><a href="”#”">Member</a></li>
+      <li>
+        <nuxt-link to="member">
+          Member
+        </nuxt-link>
+      </li>
       <li><a href="”#”">Works</a></li>
       <li><a href="”#”">Contact</a></li>
     </ul>

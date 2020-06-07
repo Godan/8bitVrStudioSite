@@ -1,0 +1,45 @@
+.title {
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: #000;
+  letter-spacing: 1px;
+  width: 100%;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.subtitle {
+  width: 100%;
+  font-weight: 300;
+  font-size: 28px;
+  color: #0e8d0a;
+  vertical-align: middle;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+
+.center-text {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 22px;
+}
+
+img.br-max { border-radius: 50%; }
+.max-row {
+  width: 100vw;
+}
+
+.twitter {
+  font-size: 32px;
+  color: #1DA1F2;
+}
+
+.youtube {
+  color: #FF0000;
+  font-size: 32px;
+}

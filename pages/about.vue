@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="max-row">
       <h1 class="title">
         About
       </h1>
@@ -8,12 +8,12 @@
         8bit<レトロ>をVR<現代>に
       </h2>
       <p>TOOD: ここにいい感じの画像</p>
-      <div>
-        <p>
+      <div class="center-text">
+        <p class="center-text">
           色々あって作った仲間内のサークル<br>
           一人がボドゲを作り。一人は動画撮ったりなんやかんやしたり。一人は配信をしたり。<br>
           地球に未開拓地はすでに無く。宇宙を開拓するには早すぎる時代。 <br>
-          僕たちはこのVRの世界に新しい開拓地を創ろう。
+          僕たちは、この「VR」の世界に新しい開拓地を創ろう。
         </p>
       </div>
     </div>
@@ -35,6 +35,7 @@ export default Vue.extend({
 .container {
   margin: 0 auto;
   min-height: 100vh;
+  min-width: 100vh;
   display: flex;
   /* justify-content: center; */
   /* align-items: center; */
@@ -43,25 +44,8 @@ export default Vue.extend({
   margin-top: 50px;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #000;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 22px;
-  color: #888;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
 .navibar {
   padding-top: 55px;
 }
+
 </style>
